@@ -9,6 +9,7 @@ export const ButtonTypes = {
 const ButtonColors = {
   NUMBER: ["#71717a", "#3f3f46"],
   OPERATOR: ["#f59e0b", "#856a3c"],
+  ALLCLEAR: ["#cf5be3", "#cba9cb"],
 };
 
 const Button = ({ title, onPress, buttonStyle, buttonType }) => {
