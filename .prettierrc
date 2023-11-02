@@ -4,5 +4,6 @@
   "semi": true,
   "SingleQuote": true,
   "tabWidth": 2,
-  "jsxSingleQuote": true
+  "jsxSingleQuote": true,
+  "singleQuote": true
 }

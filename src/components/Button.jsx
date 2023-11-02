@@ -1,15 +1,14 @@
-import { Text, StyleSheet, Pressable } from "react-native";
-import PropTypes from "prop-types";
+import { Text, StyleSheet, Pressable } from 'react-native';
+import PropTypes from 'prop-types';
 
 export const ButtonTypes = {
-  NUMBER: "NUMBER",
-  OPERATOR: "OPERATOR",
+  NUMBER: 'NUMBER',
+  OPERATOR: 'OPERATOR',
 };
 
 const ButtonColors = {
-  NUMBER: ["#71717a", "#3f3f46"],
-  OPERATOR: ["#f59e0b", "#856a3c"],
-  ALLCLEAR: ["#cf5be3", "#cba9cb"],
+  NUMBER: ['#71717a', '#3f3f46'],
+  OPERATOR: ['#e1be33', '#c69b51'],
 };
 
 const Button = ({ title, onPress, buttonStyle, buttonType }) => {
@@ -41,12 +40,12 @@ Button.propTypes = {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: "#71717",
-    alignItems: "center",
-    justifyContent: "center",
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 25,
   },
   text: {
-    color: "white",
+    color: 'white',
     fontSize: 50,
   },
 });
